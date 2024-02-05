@@ -76,7 +76,7 @@
 		A97080732A03F688006E044D /* SSHLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHLogger.swift; sourceTree = "<group>"; };
 		A97080762A041553006E044D /* BuildkiteAgentProvisioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildkiteAgentProvisioner.swift; sourceTree = "<group>"; };
 		A97080782A041628006E044D /* BuildkiteAgentProvisionerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildkiteAgentProvisionerConfig.swift; sourceTree = "<group>"; };
-		A9728DD12918F79000342A77 /* Cilicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cilicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9728DD12918F79000342A77 /* Cilicon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cilicon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9728DD42918F79000342A77 /* CiliconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiliconApp.swift; sourceTree = "<group>"; };
 		A9728DD62918F79000342A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9728DD82918F79100342A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 		A9728DD22918F79000342A77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9728DD12918F79000342A77 /* Cilicon.app */,
+				A9728DD12918F79000342A77 /* Cilicon2.app */,
 				A9FDAB04292E33F600B8CA1F /* Cilicon Installer.app */,
 			);
 			name = Products;
@@ -306,9 +306,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9728DD02918F79000342A77 /* Cilicon */ = {
+		A9728DD02918F79000342A77 /* Cilicon2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9728DE02918F79100342A77 /* Build configuration list for PBXNativeTarget "Cilicon" */;
+			buildConfigurationList = A9728DE02918F79100342A77 /* Build configuration list for PBXNativeTarget "Cilicon2" */;
 			buildPhases = (
 				622F3F2C2A3CB696007506AF /* SwiftFormat */,
 				A9728DCD2918F79000342A77 /* Sources */,
@@ -319,7 +319,7 @@
 			);
 			dependencies = (
 			);
-			name = Cilicon;
+			name = Cilicon2;
 			packageProductDependencies = (
 				A9728E0E2918FA2300342A77 /* SwiftJWT */,
 				A9FDAB2029375D0200B8CA1F /* Yams */,
@@ -327,7 +327,7 @@
 				A9FA15D32A273B0B0085A676 /* Citadel */,
 			);
 			productName = Cilicon;
-			productReference = A9728DD12918F79000342A77 /* Cilicon.app */;
+			productReference = A9728DD12918F79000342A77 /* Cilicon2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A9FDAB03292E33F600B8CA1F /* Cilicon Installer */ = {
@@ -365,7 +365,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9728DCC2918F79000342A77 /* Build configuration list for PBXProject "Cilicon" */;
+			buildConfigurationList = A9728DCC2918F79000342A77 /* Build configuration list for PBXProject "Cilicon2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -383,7 +383,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9728DD02918F79000342A77 /* Cilicon */,
+				A9728DD02918F79000342A77 /* Cilicon2 */,
 				A9FDAB03292E33F600B8CA1F /* Cilicon Installer */,
 			);
 		};
@@ -747,7 +747,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9728DCC2918F79000342A77 /* Build configuration list for PBXProject "Cilicon" */ = {
+		A9728DCC2918F79000342A77 /* Build configuration list for PBXProject "Cilicon2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9728DDE2918F79100342A77 /* Debug */,
@@ -756,7 +756,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9728DE02918F79100342A77 /* Build configuration list for PBXNativeTarget "Cilicon" */ = {
+		A9728DE02918F79100342A77 /* Build configuration list for PBXNativeTarget "Cilicon2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9728DE12918F79100342A77 /* Debug */,
